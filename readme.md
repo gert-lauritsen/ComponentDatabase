@@ -271,15 +271,3 @@ This system provides:
 * Database version available for scaling
 
 ---
-
-```
-
----
-
-If you want, I can next:
-
-- integrate the enrichment **directly into the HTML UI (button click)**
-- or make a **live sync between JSON and SQLite backend**
-
-Just tell me 👍
-```
