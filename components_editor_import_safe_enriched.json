@@ -1,0 +1,3214 @@
+{
+  "components": [
+    {
+      "id": 1,
+      "part_number": "10-08-A-0050-c-4-08-4-T",
+      "manufacturer": "GCT",
+      "description": "FFC / FPC Jumper Cables 1mm Pitch FlatFlexCable, 8Contact, Conductor SameSide, Len50mm/2in, Tin Plt",
+      "datasheet_url": "https://www.mouser.com/catalog/specsheets/GCT_FFC Cable drawing - Feb 2026.pdf",
+      "locations": [
+        {
+          "box": "Box2",
+          "x": 2,
+          "y": 6,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "part_number": "10-08-A-0101-C-4-08-4-T",
+      "manufacturer": "GCT",
+      "description": "FFC / FPC Jumper Cables 1mm Pitch FlatFlexCable, 8Contact, Conductor SameSide, Len101mm/4in, Tin Plt",
+      "datasheet_url": "https://www.mouser.com/catalog/specsheets/GCT_FFC Cable drawing - Feb 2026.pdf",
+      "locations": [
+        {
+          "box": "Box2",
+          "x": 4,
+          "y": 3,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "part_number": "100k trimpot",
+      "manufacturer": "",
+      "description": "",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box6",
+          "x": 2,
+          "y": 1,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "part_number": "10PIN PROG",
+      "manufacturer": "",
+      "description": "10-pin programming connector/header",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box4",
+          "x": 2,
+          "y": 3,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "part_number": "1SMA5925BT3G",
+      "manufacturer": "onsemi",
+      "description": "Zener diode, 5.1V",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 3,
+          "y": 7,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "part_number": "1SMB5937BT3G",
+      "manufacturer": "onsemi",
+      "description": "Zener diode, 3.3V",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 2,
+          "y": 7,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "part_number": "30pF 0201",
+      "manufacturer": "",
+      "description": "",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box1",
+          "x": 2,
+          "y": 3,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "part_number": "3232CBZ",
+      "manufacturer": "",
+      "description": "RS-232 transceiver, dual-channel",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box4",
+          "x": 1,
+          "y": 3,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "part_number": "356-ESP32WRM32E128PH",
+      "manufacturer": "",
+      "description": "",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box10",
+          "x": 1,
+          "y": 4,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "part_number": "3A FUSE",
+      "manufacturer": "",
+      "description": "Fuse, 3A",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 7,
+          "y": 3,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "part_number": "470r 1W 0,1% 0805",
+      "manufacturer": "",
+      "description": "",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box5",
+          "x": 7,
+          "y": 8,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "part_number": "74405020047",
+      "manufacturer": "Wurth Elektronik",
+      "description": "Power Inductors - SMD WE-LQSH 2010 4.7uH 0.8A 370mOhms",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box1",
+          "x": 8,
+          "y": 2,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "part_number": "74AHC1G14W5-7",
+      "manufacturer": "Diodes Incorporated",
+      "description": "Diodes Incorporated Single Schmitt-Trigger Inverter",
+      "datasheet_url": "Datasheet",
+      "locations": [
+        {
+          "box": "Box5",
+          "x": 3,
+          "y": 3,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "part_number": "74HC4052D",
+      "manufacturer": "Toshiba",
+      "description": "Encoders, Decoders, Multiplexers & Demultiplexers 74HC CMOS logic IC series SOIC16 Dual 4-Channel Analog Multiplexer/Demultiplexer",
+      "datasheet_url": "https://www.mouser.com/datasheet/3/105/1/D380832E2A1DE54D5E55703D9B70651F2D4AE4D4F55976239B0B1674D9C4686E.pdf",
+      "locations": [
+        {
+          "box": "Box7",
+          "x": 6,
+          "y": 3,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "part_number": "74HC7014D",
+      "manufacturer": "Nexperia",
+      "description": "Buffers & Line Drivers HEX SCHMITT TRIGGER",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box2",
+          "x": 1,
+          "y": 4,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "part_number": "76877530 WE-PD2",
+      "manufacturer": "",
+      "description": "",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box6",
+          "x": 3,
+          "y": 1,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "part_number": "7815",
+      "manufacturer": "Keystone Electronics",
+      "description": "Terminals VERT .250X.032 HDRS",
+      "datasheet_url": "https://www.mouser.com/datasheet/3/201/1/7813_7816.pdf",
+      "locations": [
+        {
+          "box": "Box8",
+          "x": 2,
+          "y": 2,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "part_number": "7915",
+      "manufacturer": "Greenlee",
+      "description": "Punches & Dies BLADE, REPLACEMENT",
+      "datasheet_url": "https://www.mouser.com/catalog/specsheets/Greenlee_11142018_T10LC.pdf",
+      "locations": [
+        {
+          "box": "Box8",
+          "x": 3,
+          "y": 1,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "part_number": "8,2uF",
+      "manufacturer": "",
+      "description": "",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box7",
+          "x": 2,
+          "y": 3,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "part_number": "A2235-H",
+      "manufacturer": "Lantronix",
+      "description": "GNSS / GPS Modules SiRFStarIV GPS receiver SMT ROM mod",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box10",
+          "x": 1,
+          "y": 2,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "part_number": "ABS25-32",
+      "manufacturer": "",
+      "description": "",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box7",
+          "x": 4,
+          "y": 2,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "part_number": "ACPL-217-50DE",
+      "manufacturer": "Broadcom Limited",
+      "description": "Transistor Output Optocouplers 3000Vrms 50% CTR",
+      "datasheet_url": "https://www.mouser.com/datasheet/3/57/1/AV02_0470EN_2023_10_11.pdf",
+      "locations": [
+        {
+          "box": "Box5",
+          "x": 3,
+          "y": 8,
+          "qty": "10"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "part_number": "AD5280BRUZ20",
+      "manufacturer": "Analog Devices",
+      "description": "Digital potentiometer, 20 kΩ",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 5,
+          "y": 2,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "part_number": "AD623ARZ",
+      "manufacturer": "Analog Devices Inc.",
+      "description": "Instrumentation Amplifiers SOIC SINGLE SUPPLY RAIL-RAIL L/C IN AMP",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box5",
+          "x": 2,
+          "y": 7,
+          "qty": "6"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "part_number": "AD6706BRUZ",
+      "manufacturer": "",
+      "description": "Analog Devices 12-Bit, 1MSPS, 8-Channel ADC",
+      "datasheet_url": "Datasheet",
+      "locations": [
+        {
+          "box": "Box5",
+          "x": 3,
+          "y": 2,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "part_number": "AD8400ARZ1",
+      "manufacturer": "Analog Devices",
+      "description": "Digital Potentiometer ICs SINGLE 8-BIT DIGITAL POTENTIOMETER 1K",
+      "datasheet_url": "https://www.mouser.com/datasheet/3/1014/1/AD8400_8402_8403.pdf",
+      "locations": [
+        {
+          "box": "Box5",
+          "x": 4,
+          "y": 4,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "part_number": "AD8402ARZ10",
+      "manufacturer": "Analog Devices",
+      "description": "Digital Potentiometer ICs DUAL 8-BIT POTENTIOMETER",
+      "datasheet_url": "https://www.mouser.com/datasheet/3/1014/1/AD8400_8402_8403.pdf",
+      "locations": [
+        {
+          "box": "Box5",
+          "x": 2,
+          "y": 8,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "part_number": "AD8620ARZ",
+      "manufacturer": "Analog Devices",
+      "description": "Operational amplifier",
+      "datasheet_url": "https://www.mouser.com/datasheet/3/1014/1/AD8610_8620.pdf",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 6,
+          "y": 1,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "part_number": "ADG419BRZ",
+      "manufacturer": "Analog Devices Inc.",
+      "description": "Analog Switch ICs PRECISION SINGLE SPDT SW",
+      "datasheet_url": "https://www.mouser.com/datasheet/3/1014/1/4C251208EA157C1602F8CF799B028BD23EDD6245ECC35D56AA75AB358C56FF95.pdf",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 1,
+          "y": 2,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "part_number": "ADM3202ARWZ",
+      "manufacturer": "Analog Devices Inc.",
+      "description": "RS-232 Interface IC 3V RS-232 I.C.",
+      "datasheet_url": "https://www.mouser.com/datasheet/3/1014/1/ADM3202_3222_1385.pdf",
+      "locations": [
+        {
+          "box": "Box6",
+          "x": 3,
+          "y": 3,
+          "qty": "20"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "part_number": "ADP7142AUJZ-3.3-R7",
+      "manufacturer": "Analog Devices Inc.",
+      "description": "LDO Voltage Regulators 40V 200mA LDO 3.3Vo",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 8,
+          "y": 6,
+          "qty": ""
+        },
+        {
+          "box": "Box5",
+          "x": 3,
+          "y": 7,
+          "qty": "4"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "part_number": "AM26LS31CD (5V)",
+      "manufacturer": "",
+      "description": "",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box2",
+          "x": 1,
+          "y": 2,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "part_number": "AM26LV31CD",
+      "manufacturer": "Texas Instruments",
+      "description": "Buffers & Line Drivers Quad Diff",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box2",
+          "x": 1,
+          "y": 1,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "part_number": "AM26LV32IDR",
+      "manufacturer": "Texas Instruments",
+      "description": "RS-422 Interface IC Lo-Vltg Hi-Sp Quad D iff Line Dr A 595-A A 595-AM26LV32ID",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box2",
+          "x": 1,
+          "y": 3,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "part_number": "AP1117E33G-13",
+      "manufacturer": "Diodes Incorporated",
+      "description": "Low dropout (LDO) voltage regulator, 3.3V output",
+      "datasheet_url": "https://www.mouser.com/datasheet/3/175/1/AP1117.pdf",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 5,
+          "y": 5,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "part_number": "ap1117e50g",
+      "manufacturer": "",
+      "description": "",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box5",
+          "x": 7,
+          "y": 2,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "part_number": "AP1117E50G-13",
+      "manufacturer": "Diodes Incorporated",
+      "description": "LDO Voltage Regulators LDO BI 1.0A 1.3V 12V 5.0V 5.0V FIX",
+      "datasheet_url": "https://www.mouser.com/datasheet/3/175/1/AP1117.pdf",
+      "locations": [
+        {
+          "box": "Box5",
+          "x": 1,
+          "y": 8,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "part_number": "AP2112K-3.3TRG1",
+      "manufacturer": "Diodes Incorporated",
+      "description": "Low dropout (LDO) voltage regulator, 3.3V output",
+      "datasheet_url": "https://www.mouser.com/datasheet/3/175/1/AP2112.pdf",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 2,
+          "y": 5,
+          "qty": ""
+        },
+        {
+          "box": "Box11",
+          "x": 1,
+          "y": 1,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "part_number": "AP7361C-33ER-13",
+      "manufacturer": "Diodes Incorporated",
+      "description": "LDO Voltage Regulators LDO CMOS HiCurr",
+      "datasheet_url": "https://www.mouser.com/datasheet/3/175/1/AP7361C.pdf",
+      "locations": [
+        {
+          "box": "Box2",
+          "x": 4,
+          "y": 4,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "part_number": "APT2012 rød led 0805",
+      "manufacturer": "",
+      "description": "",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box8",
+          "x": 3,
+          "y": 4,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "part_number": "ASE-25.000MHZ-L-C-T",
+      "manufacturer": "ABRACON",
+      "description": "25.000 MHz low-jitter SMD crystal oscillator",
+      "datasheet_url": "Datasheet",
+      "locations": [
+        {
+          "box": "Box1",
+          "x": 8,
+          "y": 5,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "part_number": "ASE-8.0000MHZ-L-C-T",
+      "manufacturer": "",
+      "description": "8 MHz crystal oscillator",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 1,
+          "y": 3,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "part_number": "ASE-8.000mHZ-LC-T",
+      "manufacturer": "ABRACON",
+      "description": "8 MHz crystal oscillator",
+      "datasheet_url": "https://www.mouser.com/datasheet/3/184/1/ASEseries.pdf",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 1,
+          "y": 5,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "part_number": "AUIF540ZS",
+      "manufacturer": "",
+      "description": "",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box8",
+          "x": 3,
+          "y": 3,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "part_number": "AUIRFR1018E",
+      "manufacturer": "Infineon Technologies",
+      "description": "MOSFETs AUTO 60V 1 N-CH HEXFET 8.4mOhms",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box8",
+          "x": 2,
+          "y": 4,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "part_number": "AZ1117CH-3.3TRG1",
+      "manufacturer": "Diodes Incorporated",
+      "description": "LDO Voltage Regulators LDO BJT HiCurr 3.3V 1A",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box11",
+          "x": 2,
+          "y": 1,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "part_number": "BAR43SFILM",
+      "manufacturer": "STMicroelectronics",
+      "description": "Schottky Diodes & Rectifiers 100mA 30 Volt",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 5,
+          "y": 4,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "part_number": "BAT54S",
+      "manufacturer": "Rectron",
+      "description": "Schottky Diodes & Rectifiers SOT23 0.2A 30V Schot tky Dblr",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 2,
+          "y": 3,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "part_number": "BC846BS",
+      "manufacturer": "Nexperia",
+      "description": "NPN Bipolar junction transistor (BJT)",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 4,
+          "y": 6,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "part_number": "BC856CMTF",
+      "manufacturer": "onsemi",
+      "description": "ON Semiconductor PNP Bipolar Junction Transistor, 65V, 100mA",
+      "datasheet_url": "Datasheet",
+      "locations": [
+        {
+          "box": "Box5",
+          "x": 1,
+          "y": 4,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "part_number": "Blå LED 3mm",
+      "manufacturer": "",
+      "description": "",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box8",
+          "x": 1,
+          "y": 2,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "part_number": "BME280",
+      "manufacturer": "Bosch",
+      "description": "Board Mount Humidity Sensors",
+      "datasheet_url": "https://www.mouser.com/datasheet/3/1046/1/bst_bme280_ds002.pdf",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 4,
+          "y": 5,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "part_number": "BNO055",
+      "manufacturer": "Bosch",
+      "description": "IMUs - Inertial Measurement Units Absolute Orientation 9-Axis Sensor",
+      "datasheet_url": "https://www.mouser.com/datasheet/3/1046/1/bst_bno055_ds000.pdf",
+      "locations": [
+        {
+          "box": "Box5",
+          "x": 4,
+          "y": 8,
+          "qty": "10"
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "part_number": "BNO080",
+      "manufacturer": "",
+      "description": "9-axis IMU (inertial measurement unit)",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 8,
+          "y": 3,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "part_number": "BZB984-C5V1",
+      "manufacturer": "",
+      "description": "Nexperia 5.1V, 300mW Zener Diode",
+      "datasheet_url": "Datasheet",
+      "locations": [
+        {
+          "box": "Box5",
+          "x": 3,
+          "y": 4,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "part_number": "BZX584C22-G3-08",
+      "manufacturer": "",
+      "description": "Zener diode, 22V",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 8,
+          "y": 5,
+          "qty": ""
+        },
+        {
+          "box": "Box5",
+          "x": 2,
+          "y": 5,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "part_number": "C1206C106K4RACTU",
+      "manufacturer": "",
+      "description": "KEMET 10µF ±10% 16V X5R 1206 Multilayer Ceramic Capacitor",
+      "datasheet_url": "Datasheet",
+      "locations": [
+        {
+          "box": "Box5",
+          "x": 5,
+          "y": 1,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "part_number": "C2012X5R1E685K125AC",
+      "manufacturer": "",
+      "description": "TDK 6.8µF ±10% 25V X5R 0805 Multilayer Ceramic Capacitor",
+      "datasheet_url": "Datasheet",
+      "locations": [
+        {
+          "box": "Box5",
+          "x": 3,
+          "y": 1,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "part_number": "CD4052BM96",
+      "manufacturer": "",
+      "description": "",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box6",
+          "x": 3,
+          "y": 2,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "part_number": "CDBU0230R-HF",
+      "manufacturer": "",
+      "description": "",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box5",
+          "x": 7,
+          "y": 6,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "part_number": "CMP1206AFX-1003ELF",
+      "manufacturer": "Bourns",
+      "description": "Thick Film Resistors - SMD 100K  OHM   1% 3/4W TC100",
+      "datasheet_url": "Datasheet",
+      "locations": [
+        {
+          "box": "Box5",
+          "x": 4,
+          "y": 1,
+          "qty": "0"
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "part_number": "COM-09806",
+      "manufacturer": "",
+      "description": "",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box10",
+          "x": 1,
+          "y": 3,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "part_number": "CP2102-GM",
+      "manufacturer": "",
+      "description": "USB-to-UART bridge",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 7,
+          "y": 7,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "part_number": "CP2102N-A02-GQFN28",
+      "manufacturer": "",
+      "description": "",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box11",
+          "x": 3,
+          "y": 1,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "part_number": "CR0402-JW-121GLF",
+      "manufacturer": "",
+      "description": "",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box1",
+          "x": 8,
+          "y": 3,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "part_number": "CRCW120645K0JNEAHP",
+      "manufacturer": "",
+      "description": "Vishay/Dale 45kΩ ±5% 0.25W, 1206 Thick Film Resistor",
+      "datasheet_url": "Datasheet",
+      "locations": [
+        {
+          "box": "Box5",
+          "x": 1,
+          "y": 1,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "part_number": "ELL6SH8R2M 8,2uH 1,4A",
+      "manufacturer": "",
+      "description": "",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box8",
+          "x": 2,
+          "y": 1,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "part_number": "EMK325ABJ107MM",
+      "manufacturer": "",
+      "description": "Taiyo Yuden 100µF ±20% 6.3V X5R 1210 Multilayer Ceramic Capacitor",
+      "datasheet_url": "Datasheet",
+      "locations": [
+        {
+          "box": "Box5",
+          "x": 6,
+          "y": 1,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "part_number": "ERA6ARB102V",
+      "manufacturer": "",
+      "description": "Precision resistor, 1kΩ",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 4,
+          "y": 7,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "part_number": "ESP32-WROOM-32",
+      "manufacturer": "",
+      "description": "",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box9",
+          "x": 2,
+          "y": 1,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "part_number": "ESP8266",
+      "manufacturer": "",
+      "description": "",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box9",
+          "x": 2,
+          "y": 2,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "part_number": "FDC6330L",
+      "manufacturer": "ON Semiconductor",
+      "description": "Power Switch ICs - Power Distribution 20V 80mOhm P-CHANNEL",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box5",
+          "x": 4,
+          "y": 7,
+          "qty": "9"
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "part_number": "FDG8850NZ",
+      "manufacturer": "ON Semiconductor",
+      "description": "MOSFET 30V Dual N-CH PowerTrench MOSFET",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box5",
+          "x": 6,
+          "y": 7,
+          "qty": "20"
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "part_number": "FDT439N",
+      "manufacturer": "onsemi",
+      "description": "MOSFETs SOT-223 N-CH 30V",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box7",
+          "x": 7,
+          "y": 2,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "part_number": "FFC3B11-08-T",
+      "manufacturer": "GCT",
+      "description": "FFC & FPC Connectors 08W, 1.0mm FFC Conn, R/A,Top Cont, Slide, H2.5mm,SMT,Tin,T&R",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box2",
+          "x": 1,
+          "y": 6,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "part_number": "FM25CL64B-G",
+      "manufacturer": "Infineon Technologies",
+      "description": "64Kb serial F-RAM (non-volatile memory)",
+      "datasheet_url": "https://www.mouser.com/datasheet/3/70/1/Infineon_FM25CL64B_64_Kbit__8_K_8__Serial__SPI__F_RAM_DataSheet_v11_00_EN.pdf",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 8,
+          "y": 1,
+          "qty": ""
+        },
+        {
+          "box": "Box3",
+          "x": 8,
+          "y": 2,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "part_number": "FML340A-W",
+      "manufacturer": "Rectron",
+      "description": "Schottky Diodes & Rectifiers 20-40V 3A SCHOTTKY Barrier Rectifier",
+      "datasheet_url": "https://www.mouser.com/datasheet/3/287/1/fml340a.pdf",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 2,
+          "y": 4,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "part_number": "FT232RL",
+      "manufacturer": "",
+      "description": "",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box6",
+          "x": 1,
+          "y": 4,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "part_number": "GRM21BR61E226ME44K",
+      "manufacturer": "Murata Electronics",
+      "description": "Murata 22µF ±20% 25V X5R 0805 Multilayer Ceramic Capacitor",
+      "datasheet_url": "Datasheet",
+      "locations": [
+        {
+          "box": "Box5",
+          "x": 2,
+          "y": 1,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "part_number": "hc595",
+      "manufacturer": "",
+      "description": "",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box6",
+          "x": 2,
+          "y": 4,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "part_number": "HCPL-0630-000E",
+      "manufacturer": "Broadcom Limited",
+      "description": "High Speed Optocouplers 10MBd 2Ch 5mA",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 5,
+          "y": 6,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "part_number": "HSMZ-A100-R00J1 PLCC2",
+      "manufacturer": "",
+      "description": "Broadcom Red 630nm PLCC2 LED",
+      "datasheet_url": "Datasheet",
+      "locations": [
+        {
+          "box": "Box5",
+          "x": 7,
+          "y": 1,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "part_number": "ICM-20648",
+      "manufacturer": "TDK",
+      "description": "IMUs - Inertial Measurement Units DMP-Enabled 6-Axis Integrated Solution for Wrist-Worn Wearable",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 3,
+          "y": 2,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "part_number": "IIS3DHHCTR",
+      "manufacturer": "STMicroelectronics",
+      "description": "High-resolution, low-noise, 3-axis digital accelerometer",
+      "datasheet_url": "Datasheet",
+      "locations": [
+        {
+          "box": "Box1",
+          "x": 1,
+          "y": 5,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "part_number": "IIS3DWBCT-ND",
+      "manufacturer": "",
+      "description": "High-performance, 3-axis digital vibration sensor",
+      "datasheet_url": "Datasheet",
+      "locations": [
+        {
+          "box": "Box1",
+          "x": 2,
+          "y": 5,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "part_number": "IM69D130V01XTSA1",
+      "manufacturer": "Infineon Technologies",
+      "description": "High-performance digital MEMS microphone",
+      "datasheet_url": "Datasheet",
+      "locations": [
+        {
+          "box": "Box1",
+          "x": 3,
+          "y": 6,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "part_number": "IM70D122V01XTMA1",
+      "manufacturer": "Infineon Technologies",
+      "description": "High-performance MEMS microphone with PDM output",
+      "datasheet_url": "Datasheet",
+      "locations": [
+        {
+          "box": "Box1",
+          "x": 1,
+          "y": 4,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "part_number": "IMP23ABSUTR",
+      "manufacturer": "STMicroelectronics",
+      "description": "Analog MEMS microphone with top port",
+      "datasheet_url": "Datasheet",
+      "locations": [
+        {
+          "box": "Box1",
+          "x": 1,
+          "y": 6,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "part_number": "INA181A11DBVT",
+      "manufacturer": "",
+      "description": "",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box5",
+          "x": 4,
+          "y": 6,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "part_number": "IPP70N12S311AKSA1",
+      "manufacturer": "Infineon Technologies",
+      "description": "N-channel MOSFET, 120V, 70A",
+      "datasheet_url": "https://www.mouser.com/datasheet/3/70/1/Infineon_IPP_B_I70N12S3_11_Data_Sheet_02_Infineon_DataSheet_v01_01_EN.pdf",
+      "locations": [
+        {
+          "box": "Box4",
+          "x": 1,
+          "y": 1,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "part_number": "IRF3205STRLPBF",
+      "manufacturer": "Infineon",
+      "description": "MOSFET MOSFT 55V 110A 8mOhm 97.3nC",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box4",
+          "x": 1,
+          "y": 4,
+          "qty": "10"
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "part_number": "IRF8313TRPBF",
+      "manufacturer": "Infineon",
+      "description": "MOSFET MOSFT DUAL NCh 30V 9.7A",
+      "datasheet_url": "https://www.mouser.com/datasheet/3/70/1/Infineon_IRF8313_DataSheet_v01_01_EN.pdf",
+      "locations": [
+        {
+          "box": "Box7",
+          "x": 6,
+          "y": 2,
+          "qty": "25"
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "part_number": "IRLML0030TRPBF",
+      "manufacturer": "Infineon",
+      "description": "MOSFET MOSFT 30V 5.2A 28mOhm 3.6nC Qg",
+      "datasheet_url": "Datasheet",
+      "locations": [
+        {
+          "box": "Box5",
+          "x": 6,
+          "y": 2,
+          "qty": "25"
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "part_number": "ISL83491IBZ",
+      "manufacturer": "Renesas / Intersil",
+      "description": "RS-422/RS-485 Interface IC 14LD -40+85 3V RS-485 TRANS DUP",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box7",
+          "x": 5,
+          "y": 3,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "part_number": "ISO3088DW",
+      "manufacturer": "Texas Instruments",
+      "description": "Digital Isolators Iso 5V Full & Half- Duplex RS-485 Xcvr",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box5",
+          "x": 6,
+          "y": 5,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "part_number": "L78L12ACD13TR",
+      "manufacturer": "STMicroelectronics",
+      "description": "12V, 100mA positive voltage regulator",
+      "datasheet_url": "Datasheet",
+      "locations": [
+        {
+          "box": "Box1",
+          "x": 5,
+          "y": 6,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "part_number": "LAN8742A-CZ-TR",
+      "manufacturer": "Microchip Technology",
+      "description": "10/100 Mbps Ethernet transceiver with HP Auto-MDIX support",
+      "datasheet_url": "Datasheet",
+      "locations": [
+        {
+          "box": "Box1",
+          "x": 8,
+          "y": 6,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "part_number": "LF398S8",
+      "manufacturer": "",
+      "description": "",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box7",
+          "x": 1,
+          "y": 2,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "part_number": "LM117MPX-3.3",
+      "manufacturer": "",
+      "description": "Voltage regulator, 3.3V output",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 2,
+          "y": 2,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "part_number": "LM258WDT",
+      "manufacturer": "STMicroelectronics",
+      "description": "Operational Amplifiers - Op Amps Low power dual operational amplifiers",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box5",
+          "x": 6,
+          "y": 6,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "part_number": "lm2940imp-5.0",
+      "manufacturer": "Texas Instruments",
+      "description": "LDO Voltage Regulators 1-A, 26-V, high-PSRR, low-dropout voltage regulator 4-SOT-223 -40 to 85",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box5",
+          "x": 6,
+          "y": 3,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "part_number": "LM321SN3TIG",
+      "manufacturer": "",
+      "description": "",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 6,
+          "y": 3,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "part_number": "LM3940IMP",
+      "manufacturer": "",
+      "description": "Low dropout (LDO) voltage regulator, 5V to 3.3V",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box4",
+          "x": 2,
+          "y": 4,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "part_number": "LM4562MAX",
+      "manufacturer": "",
+      "description": "Dual high-performance, low-distortion operational amplifier",
+      "datasheet_url": "Datasheet",
+      "locations": [
+        {
+          "box": "Box1",
+          "x": 7,
+          "y": 6,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "part_number": "LM78M05",
+      "manufacturer": "",
+      "description": "",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box9",
+          "x": 1,
+          "y": 2,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "part_number": "LMC7211AIME",
+      "manufacturer": "",
+      "description": "",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box5",
+          "x": 7,
+          "y": 4,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "part_number": "LMC8322AIM/NOPB",
+      "manufacturer": "",
+      "description": "",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box5",
+          "x": 6,
+          "y": 4,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "part_number": "LP2985-33DBVR",
+      "manufacturer": "",
+      "description": "Texas Instruments 3.3V, 150mA Low Dropout Linear Regulator",
+      "datasheet_url": "Datasheet",
+      "locations": [
+        {
+          "box": "Box5",
+          "x": 2,
+          "y": 3,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "part_number": "LP3874EMP",
+      "manufacturer": "",
+      "description": "",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box8",
+          "x": 2,
+          "y": 3,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "part_number": "LQH44PN100MJ0L",
+      "manufacturer": "",
+      "description": "",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box7",
+          "x": 3,
+          "y": 3,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "part_number": "LR12K4-G",
+      "manufacturer": "",
+      "description": "",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box5",
+          "x": 5,
+          "y": 5,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "part_number": "LT1175CST-5",
+      "manufacturer": "",
+      "description": "Negative low dropout (LDO) voltage regulator, -5V output",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 4,
+          "y": 2,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "part_number": "LTV-355T",
+      "manufacturer": "Lite-On",
+      "description": "Transistor Output Optocouplers Optocoupler Photodarlington",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 3,
+          "y": 3,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "part_number": "MAX3232CDR",
+      "manufacturer": "Texas Instruments",
+      "description": "RS-232 Interface IC 3-5.5V Mult-Ch RS232",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box6",
+          "x": 2,
+          "y": 3,
+          "qty": "25"
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "part_number": "MAX3232ECDR",
+      "manufacturer": "",
+      "description": "",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box7",
+          "x": 1,
+          "y": 1,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "part_number": "MAX3232EWE+",
+      "manufacturer": "Maxim Integrated",
+      "description": "RS-232 Interface IC 3.0V to 5.5V, Low-Power, up to 1Mbps, True RS-232 Transceivers Using Four 0.1A F External Capacitors",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box6",
+          "x": 1,
+          "y": 3,
+          "qty": "10"
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "part_number": "MAX3280EAUK+T",
+      "manufacturer": "Maxim Integrated",
+      "description": "RS-422/RS-485 Interface IC A +/- 15kV ESD-Protected 52Mbps, 3V to 5.5V, SOT23 RS-485/RS-422 True Fail-Safe Receivers",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box5",
+          "x": 5,
+          "y": 7,
+          "qty": "0"
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "part_number": "MAX3485ECSA+T",
+      "manufacturer": "",
+      "description": "RS-485/RS-422 transceiver",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 3,
+          "y": 6,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "part_number": "MAX6675",
+      "manufacturer": "",
+      "description": "Maxim Integrated Cold-Junction Compensated K-Thermocouple to Digital Converter",
+      "datasheet_url": "Datasheet",
+      "locations": [
+        {
+          "box": "Box5",
+          "x": 1,
+          "y": 3,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "part_number": "MB1S Brigde rectifire",
+      "manufacturer": "",
+      "description": "",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box5",
+          "x": 5,
+          "y": 3,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "part_number": "MC33269DT-3.3G",
+      "manufacturer": "ON Semiconductor",
+      "description": "LDO Voltage Regulators 3.3V ADJ 800mA",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box6",
+          "x": 3,
+          "y": 4,
+          "qty": "25"
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "part_number": "MC74LCX07DR2G",
+      "manufacturer": "onsemi",
+      "description": "Buffers & Line Drivers 2-5.5V CMOS Hex w/Open Drain",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box2",
+          "x": 2,
+          "y": 5,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "part_number": "MC74VHC50DR2G",
+      "manufacturer": "onsemi",
+      "description": "Buffers & Line Drivers 2-5.5V CMOS Hex",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box2",
+          "x": 2,
+          "y": 2,
+          "qty": ""
+        },
+        {
+          "box": "Box2",
+          "x": 2,
+          "y": 3,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "part_number": "MC79L12ACDR2G",
+      "manufacturer": "onsemi",
+      "description": "12V, 100mA negative voltage regulator",
+      "datasheet_url": "Datasheet",
+      "locations": [
+        {
+          "box": "Box1",
+          "x": 6,
+          "y": 6,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "part_number": "MCP1415T-E7OT",
+      "manufacturer": "",
+      "description": "MOSFET driver",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 4,
+          "y": 4,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 126,
+      "part_number": "MCP1812BT-033/OT",
+      "manufacturer": "Microchip",
+      "description": "LDO Voltage Regulators Ultra Low Iq LDO",
+      "datasheet_url": "https://www.mouser.com/datasheet/3/282/1/MCP1811A_11B_12A_12B_Family_Data_Sheet_DS20006088C.pdf",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 1,
+          "y": 7,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 127,
+      "part_number": "MCP2551-I7O",
+      "manufacturer": "",
+      "description": "CAN transceiver",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 3,
+          "y": 4,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 128,
+      "part_number": "MCP2551-I7SN",
+      "manufacturer": "",
+      "description": "CAN transceiver",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 7,
+          "y": 4,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 129,
+      "part_number": "MCP3426A6-E/SN",
+      "manufacturer": "Microchip Technology",
+      "description": "Analog to Digital Converters - ADC 16bit deltasigma ADC dual channel 15sps",
+      "datasheet_url": "https://www.mouser.com/datasheet/3/282/1/22226a.pdf",
+      "locations": [
+        {
+          "box": "Box5",
+          "x": 3,
+          "y": 5,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 130,
+      "part_number": "MCP601T-I/OTCT-ND",
+      "manufacturer": "",
+      "description": "Low-power, general-purpose operational amplifier",
+      "datasheet_url": "Datasheet",
+      "locations": [
+        {
+          "box": "Box1",
+          "x": 2,
+          "y": 6,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 131,
+      "part_number": "MCP73832T-2DFI/OT",
+      "manufacturer": "Microchip Technology",
+      "description": "Battery Management 4.2V Li-Ion/Li-Poly Chrg mgnt controller",
+      "datasheet_url": "https://www.mouser.com/datasheet/3/282/1/MCP73831-Family-Data-Sheet-DS20001984H.pdf",
+      "locations": [
+        {
+          "box": "Box11",
+          "x": 4,
+          "y": 1,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 132,
+      "part_number": "MCSJK-3N-26.00-3.3-25-C",
+      "manufacturer": "",
+      "description": "26 MHz crystal oscillator",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 1,
+          "y": 4,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 133,
+      "part_number": "MIC5256-3.3YM5",
+      "manufacturer": "",
+      "description": "Low dropout (LDO) voltage regulator, 3.3V output",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 4,
+          "y": 3,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 134,
+      "part_number": "MINIUSB",
+      "manufacturer": "",
+      "description": "Mini USB connector",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box4",
+          "x": 3,
+          "y": 3,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 135,
+      "part_number": "mlx90614esf",
+      "manufacturer": "",
+      "description": "",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box5",
+          "x": 7,
+          "y": 3,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 136,
+      "part_number": "MLZ1608E100MT",
+      "manufacturer": "TDK",
+      "description": "10 µH ±20% 1.2A SMD inductor",
+      "datasheet_url": "Datasheet",
+      "locations": [
+        {
+          "box": "Box1",
+          "x": 8,
+          "y": 4,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 137,
+      "part_number": "MOC3023SM",
+      "manufacturer": "onsemi",
+      "description": "ON Semiconductor Non-Zero Crossing Phototriac Optocoupler",
+      "datasheet_url": "Datasheet",
+      "locations": [
+        {
+          "box": "Box5",
+          "x": 5,
+          "y": 2,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 138,
+      "part_number": "molex 47491-0001",
+      "manufacturer": "",
+      "description": "",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box7",
+          "x": 4,
+          "y": 3,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 139,
+      "part_number": "MP000443 Gled 800mcd",
+      "manufacturer": "",
+      "description": "",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box5",
+          "x": 1,
+          "y": 7,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 140,
+      "part_number": "MYBSP01201ABF",
+      "manufacturer": "Murata Electronics",
+      "description": "DC/DC Converters - SMD 12W 37-57VIN 12VOUT FOR POE PD",
+      "datasheet_url": "https://www.mouser.com/catalog/specsheets/murata_mups-s-a0005500049-1.pdf",
+      "locations": [
+        {
+          "box": "Box2",
+          "x": 5,
+          "y": 4,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 141,
+      "part_number": "NPPN062AFCN-RC",
+      "manufacturer": "",
+      "description": "6-position, dual-row, SMT header",
+      "datasheet_url": "Datasheet",
+      "locations": [
+        {
+          "box": "Box1",
+          "x": 4,
+          "y": 6,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 142,
+      "part_number": "NRPN062MAMS-RC",
+      "manufacturer": "",
+      "description": "",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box2",
+          "x": 2,
+          "y": 4,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 143,
+      "part_number": "NTMFS5C423NLT1G",
+      "manufacturer": "ON Semiconductor",
+      "description": "MOSFET NFET SO8FL 40V 150A 2MOHM",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 7,
+          "y": 1,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 144,
+      "part_number": "OPA1678IDR",
+      "manufacturer": "Texas Instruments",
+      "description": "Audio Amplifiers Low distortion (-120 dB) low noise (4.5",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box2",
+          "x": 5,
+          "y": 5,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 145,
+      "part_number": "PCH 20v 3,7A SOT-23",
+      "manufacturer": "",
+      "description": "P-channel MOSFET, 20V, 3.7A",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 5,
+          "y": 7,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 146,
+      "part_number": "PESD3V3L4UG",
+      "manufacturer": "Nexperia",
+      "description": "ESD Protection Diodes / TVS Diodes",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box5",
+          "x": 6,
+          "y": 8,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 147,
+      "part_number": "PM8834TR",
+      "manufacturer": "STMicroelectronics",
+      "description": "PWM controller IC",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 6,
+          "y": 4,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 148,
+      "part_number": "PMEG45A10EPDAZ",
+      "manufacturer": "Nexperia",
+      "description": "Schottky Diodes & Rectifiers RECT 45V   10A   SM  SCHOTTKY",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box5",
+          "x": 5,
+          "y": 6,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 149,
+      "part_number": "PTS645SM43SMTR92LES",
+      "manufacturer": "",
+      "description": "",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box10",
+          "x": 2,
+          "y": 4,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 150,
+      "part_number": "PTVS22VZ1USK",
+      "manufacturer": "",
+      "description": "",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box7",
+          "x": 3,
+          "y": 1,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 151,
+      "part_number": "R-7885.0-2.0",
+      "manufacturer": "",
+      "description": "",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box9",
+          "x": 1,
+          "y": 1,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 152,
+      "part_number": "R001 2W 15 2512",
+      "manufacturer": "",
+      "description": "Precision resistor, 0.001Ω, 2W",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 8,
+          "y": 4,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 153,
+      "part_number": "RBQ15BM45AFHTL",
+      "manufacturer": "ROHM Semiconductor",
+      "description": "Schottky Diodes & Rectifiers 45V Vr 15A Io SBD TO-252(DPAK) 7.5A IF",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box4",
+          "x": 3,
+          "y": 4,
+          "qty": "10"
+        }
+      ]
+    },
+    {
+      "id": 154,
+      "part_number": "RS1M 1A 1KV",
+      "manufacturer": "",
+      "description": "ON Semiconductor 1A, 1000V Fast Recovery Rectifier",
+      "datasheet_url": "Datasheet",
+      "locations": [
+        {
+          "box": "Box5",
+          "x": 4,
+          "y": 3,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 155,
+      "part_number": "RS282G05A3SMRT",
+      "manufacturer": "C&K Switches",
+      "description": "Tactile Switches SPST 0.05A 12V 250gf",
+      "datasheet_url": "Datasheet",
+      "locations": [
+        {
+          "box": "Box5",
+          "x": 1,
+          "y": 2,
+          "qty": "5"
+        }
+      ]
+    },
+    {
+      "id": 156,
+      "part_number": "SAM-M8Q-0",
+      "manufacturer": "",
+      "description": "",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box2",
+          "x": 5,
+          "y": 6,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 157,
+      "part_number": "SBR10E45P5-13",
+      "manufacturer": "",
+      "description": "",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box7",
+          "x": 7,
+          "y": 3,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 158,
+      "part_number": "SDT10A45P5-7",
+      "manufacturer": "Diodes Incorporated",
+      "description": "Schottky Diodes & Rectifiers Schottky Rectifier",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box7",
+          "x": 3,
+          "y": 2,
+          "qty": "20"
+        }
+      ]
+    },
+    {
+      "id": 159,
+      "part_number": "SG-3030CMSBR2U60S1F-7",
+      "manufacturer": "",
+      "description": "Quartz crystal, 30 MHz",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 6,
+          "y": 2,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 160,
+      "part_number": "SI7141DP-T1-GE3",
+      "manufacturer": "Vishay",
+      "description": "MOSFET -20V Vds 20V Vgs PowerPAK SO-8",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box5",
+          "x": 4,
+          "y": 5,
+          "qty": "5"
+        }
+      ]
+    },
+    {
+      "id": 161,
+      "part_number": "SIR122DP-T1-RE3",
+      "manufacturer": "",
+      "description": "Vishay 20V, 12A, N-Channel MOSFET",
+      "datasheet_url": "Datasheet",
+      "locations": [
+        {
+          "box": "Box5",
+          "x": 2,
+          "y": 4,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 162,
+      "part_number": "SM6T33A",
+      "manufacturer": "STMicroelectronics",
+      "description": "Transient voltage suppression (TVS) diode, 33V",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box4",
+          "x": 2,
+          "y": 2,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 163,
+      "part_number": "SMF24A UNI",
+      "manufacturer": "",
+      "description": "",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box7",
+          "x": 2,
+          "y": 1,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 164,
+      "part_number": "SMF24CA",
+      "manufacturer": "Diotec Semiconductor",
+      "description": "ESD Protection Diodes / TVS Diodes TVS, SOD-123FL,  150C,  200W, Bidir",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box1",
+          "x": 8,
+          "y": 1,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 165,
+      "part_number": "SN74AHC1G125DBVR",
+      "manufacturer": "Texas Instruments",
+      "description": "Single bus buffer gate with 3-state output",
+      "datasheet_url": "Datasheet",
+      "locations": [
+        {
+          "box": "Box1",
+          "x": 5,
+          "y": 4,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 166,
+      "part_number": "SN74AUC1G14DBVR",
+      "manufacturer": "Texas Instruments",
+      "description": "Single Schmitt-trigger inverter",
+      "datasheet_url": "Datasheet",
+      "locations": [
+        {
+          "box": "Box1",
+          "x": 7,
+          "y": 5,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 167,
+      "part_number": "SN74LVC2G157DCUR",
+      "manufacturer": "Texas Instruments",
+      "description": "Dual 2-input multiplexer/demultiplexer with 3-state outputs",
+      "datasheet_url": "Datasheet",
+      "locations": [
+        {
+          "box": "Box1",
+          "x": 2,
+          "y": 4,
+          "qty": ""
+        },
+        {
+          "box": "Box1",
+          "x": 6,
+          "y": 4,
+          "qty": ""
+        },
+        {
+          "box": "Box2",
+          "x": 4,
+          "y": 5,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 168,
+      "part_number": "SP0504BAHTG",
+      "manufacturer": "Littelfuse",
+      "description": "ESD Suppressors / TVS Diodes SP0504BAHTG",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 3,
+          "y": 5,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 169,
+      "part_number": "sp3078",
+      "manufacturer": "",
+      "description": "RS-485 transceiver",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 7,
+          "y": 6,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 170,
+      "part_number": "SPH1668LM4H-1",
+      "manufacturer": "Knowles",
+      "description": "MEMS Microphones DIG MEMs Mic, BP Multi-mode Perform",
+      "datasheet_url": "https://www.mouser.com/catalog/specsheets/knowles_sph1668lm4h-1_rev_a.pdf",
+      "locations": [
+        {
+          "box": "Box1",
+          "x": 1,
+          "y": 3,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 171,
+      "part_number": "SPH1878LR5H-C",
+      "manufacturer": "Syntiant",
+      "description": "Low-power, low-noise digital MEMS microphone",
+      "datasheet_url": "Datasheet",
+      "locations": [
+        {
+          "box": "Box1",
+          "x": 3,
+          "y": 5,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 172,
+      "part_number": "SQ2318AES-T1_GE3",
+      "manufacturer": "Vishay",
+      "description": "MOSFET N-Channel 40V AEC-Q101 Qualified",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box5",
+          "x": 1,
+          "y": 6,
+          "qty": "0"
+        }
+      ]
+    },
+    {
+      "id": 173,
+      "part_number": "SQW-110-01-F-D",
+      "manufacturer": "Samtec",
+      "description": "Headers & Wire Housings Cost Effective Rugged PCB Sockets",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box8",
+          "x": 1,
+          "y": 4,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 174,
+      "part_number": "ST1CC40DR",
+      "manufacturer": "STMicroelectronics",
+      "description": "DC-DC step-down (buck) converter",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 7,
+          "y": 5,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 175,
+      "part_number": "STEF01FTR",
+      "manufacturer": "STMicroelectronics",
+      "description": "Current & Power Monitors & Regulators POWER MANAGEMENT",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 2,
+          "y": 6,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 176,
+      "part_number": "STM32",
+      "manufacturer": "",
+      "description": "Generic STM32 microcontroller",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 4,
+          "y": 1,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 177,
+      "part_number": "STM32F303K8",
+      "manufacturer": "",
+      "description": "32-bit microcontroller with ARM Cortex-M4 core",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 2,
+          "y": 1,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 178,
+      "part_number": "STM32F411RET6",
+      "manufacturer": "STMicroelectronics",
+      "description": "ARM Microcontrollers - MCU STM32 Dyn Eff MCU 512 K 100 MHz CPU",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box4",
+          "x": 3,
+          "y": 1,
+          "qty": "0"
+        }
+      ]
+    },
+    {
+      "id": 179,
+      "part_number": "STM32F429VET6TR",
+      "manufacturer": "STMicroelectronics",
+      "description": "ARM Microcontrollers - MCU High-performance advanced line, Arm Cortex-M4 core DSP & FPU, 512 Kbytes of Flas",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box2",
+          "x": 4,
+          "y": 6,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 180,
+      "part_number": "STM32L011D4P6TR",
+      "manufacturer": "STMicroelectronics",
+      "description": "ARM Microcontrollers - MCU 16/32-BITS MICROS",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 6,
+          "y": 7,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 181,
+      "part_number": "STM32L022KZ",
+      "manufacturer": "",
+      "description": "32-bit microcontroller with ARM Cortex-M0 core, ultra-low-power",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 3,
+          "y": 1,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 182,
+      "part_number": "STM32L052K6",
+      "manufacturer": "",
+      "description": "32-bit microcontroller with ARM Cortex-M0 core, low power, 32KB Flash",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 1,
+          "y": 1,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 183,
+      "part_number": "STM32L052R8T6",
+      "manufacturer": "STMicroelectronics",
+      "description": "ARM Microcontrollers - MCU 16/32-BITS MICROS",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box4",
+          "x": 2,
+          "y": 1,
+          "qty": "10"
+        }
+      ]
+    },
+    {
+      "id": 184,
+      "part_number": "TDC1011PWR",
+      "manufacturer": "Texas Instruments",
+      "description": "Analog Front End - AFE Single Channel Ultra sonic Sensing Analo A 595-TDC1011PW",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box7",
+          "x": 2,
+          "y": 2,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 185,
+      "part_number": "TL081HIDR",
+      "manufacturer": "Texas Instruments",
+      "description": "Operational amplifier, single, general-purpose",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 6,
+          "y": 5,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 186,
+      "part_number": "TLC59116IPWR",
+      "manufacturer": "Texas Instruments",
+      "description": "LED Lighting Driver ICs 16Ch Fm I2C Bus Cons Crnt LED Sink Drvr",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box7",
+          "x": 8,
+          "y": 3,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 187,
+      "part_number": "TLV272CS-13",
+      "manufacturer": "Diodes Incorporated",
+      "description": "Operational Amplifiers - Op Amps 2.7 to16V0.55mA 13mA Rail to Rail 2-MHz",
+      "datasheet_url": "https://www.mouser.com/datasheet/3/175/1/TLV27x.pdf",
+      "locations": [
+        {
+          "box": "Box5",
+          "x": 3,
+          "y": 6,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 188,
+      "part_number": "TM-533-T/R",
+      "manufacturer": "",
+      "description": "Schurter 5x20mm PCB Fuseholder",
+      "datasheet_url": "Datasheet",
+      "locations": [
+        {
+          "box": "Box5",
+          "x": 2,
+          "y": 2,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 189,
+      "part_number": "TMA1215D",
+      "manufacturer": "TRACO Power",
+      "description": "DC/DC Converters - Through Hole 1W DC/DC Converter isolated, unregulated in a PCB Mount Plastic Case",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box2",
+          "x": 5,
+          "y": 3,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 190,
+      "part_number": "TMP112AIDRLR",
+      "manufacturer": "Texas Instruments",
+      "description": "Temperature sensor, digital",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 5,
+          "y": 1,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 191,
+      "part_number": "TPD2EUSB39DRTR",
+      "manufacturer": "",
+      "description": "USB port ESD protection device",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 1,
+          "y": 6,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 192,
+      "part_number": "TR-303ALS-01",
+      "manufacturer": "",
+      "description": "Mechanical relay",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 6,
+          "y": 6,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 193,
+      "part_number": "TS5A3159ADBVR",
+      "manufacturer": "Texas Instruments",
+      "description": "Analog Switch ICs SPDT ANALOG SWITCH",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box5",
+          "x": 5,
+          "y": 8,
+          "qty": "25"
+        }
+      ]
+    },
+    {
+      "id": 194,
+      "part_number": "TSL235R-LF",
+      "manufacturer": "",
+      "description": "Light-to-frequency converter, ambient light sensor",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box4",
+          "x": 1,
+          "y": 2,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 195,
+      "part_number": "TSR 0.5-2433",
+      "manufacturer": "TRACO Power",
+      "description": "Non-Isolated DC/DC Converters Product Type: POL; Package Style: SMD; Output Power (W): N/A; Input Voltage: 4.75-32 VDC; Output 1 (Vdc): 3.3; Output 2 (Vdc): N/A; Output 3 (Vdc): N/A",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box10",
+          "x": 2,
+          "y": 3,
+          "qty": "2"
+        }
+      ]
+    },
+    {
+      "id": 196,
+      "part_number": "TSR 1-2433",
+      "manufacturer": "TRACO Power",
+      "description": "Non-Isolated DC/DC Converters Product Type: POL; Package Style: SIP; Output Power (W): N/A; Input Voltage: 4.75-36 VDC; Output 1 (Vdc): 3.3; Output 2 (Vdc): N/A; Output 3 (Vdc): N/A",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box10",
+          "x": 2,
+          "y": 2,
+          "qty": "4"
+        }
+      ]
+    },
+    {
+      "id": 197,
+      "part_number": "TSR 1-2450",
+      "manufacturer": "",
+      "description": "",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box10",
+          "x": 1,
+          "y": 1,
+          "qty": ""
+        },
+        {
+          "box": "Box10",
+          "x": 2,
+          "y": 1,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 198,
+      "part_number": "TSR 1-2465",
+      "manufacturer": "",
+      "description": "",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box8",
+          "x": 3,
+          "y": 2,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 199,
+      "part_number": "TSR1-2450",
+      "manufacturer": "",
+      "description": "Traco Power 1A, 24V to 5V Non-Isolated DC/DC Converter",
+      "datasheet_url": "Datasheet",
+      "locations": [
+        {
+          "box": "Box5",
+          "x": 4,
+          "y": 2,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 200,
+      "part_number": "US1J",
+      "manufacturer": "",
+      "description": "",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 5,
+          "y": 3,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 201,
+      "part_number": "USBLC6-2P6",
+      "manufacturer": "STMicroelectronics",
+      "description": "ESD Suppressors / TVS Diodes High Speed Interface Protection Low Cap",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box5",
+          "x": 2,
+          "y": 6,
+          "qty": "38"
+        },
+        {
+          "box": "Box7",
+          "x": 1,
+          "y": 3,
+          "qty": "38"
+        }
+      ]
+    },
+    {
+      "id": 202,
+      "part_number": "USBLC6-2SC6",
+      "manufacturer": "STMicroelectronics",
+      "description": "ESD Suppressors / TVS Diodes ESD Protection Low Cap",
+      "datasheet_url": "Datasheet",
+      "locations": [
+        {
+          "box": "Box1",
+          "x": 3,
+          "y": 4,
+          "qty": "10"
+        },
+        {
+          "box": "Box5",
+          "x": 7,
+          "y": 7,
+          "qty": "10"
+        }
+      ]
+    },
+    {
+      "id": 203,
+      "part_number": "USBLC6-4SC6",
+      "manufacturer": "",
+      "description": "Low capacitance 4-line ESD protection for high-speed data interfaces",
+      "datasheet_url": "Datasheet",
+      "locations": [
+        {
+          "box": "Box1",
+          "x": 4,
+          "y": 4,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 204,
+      "part_number": "V20PW10C-M3/I",
+      "manufacturer": "",
+      "description": "",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box5",
+          "x": 7,
+          "y": 5,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 205,
+      "part_number": "VEML7700-TT",
+      "manufacturer": "",
+      "description": "",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box5",
+          "x": 1,
+          "y": 5,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 206,
+      "part_number": "WE 632 722 110 112",
+      "manufacturer": "",
+      "description": "",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box6",
+          "x": 1,
+          "y": 2,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 207,
+      "part_number": "WE 632 723 300 011",
+      "manufacturer": "",
+      "description": "",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box6",
+          "x": 1,
+          "y": 1,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 208,
+      "part_number": "we82400102",
+      "manufacturer": "",
+      "description": "Ferrite bead for EMI suppression",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box3",
+          "x": 8,
+          "y": 7,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 209,
+      "part_number": "WSLP59311L00FEA",
+      "manufacturer": "",
+      "description": "",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box6",
+          "x": 2,
+          "y": 2,
+          "qty": ""
+        }
+      ]
+    },
+    {
+      "id": 210,
+      "part_number": "ZHCS1000",
+      "manufacturer": "",
+      "description": "",
+      "datasheet_url": "",
+      "locations": [
+        {
+          "box": "Box5",
+          "x": 5,
+          "y": 4,
+          "qty": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Component Inventory Editor</title>
+  <style>
+    :root {
+      --bg: #f5f7fb;
+      --panel: #ffffff;
+      --line: #d9dfeb;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --accent: #2563eb;
+      --accent2: #eff6ff;
+      --danger: #b91c1c;
+      --ok: #166534;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+    .app {
+      display: grid;
+      grid-template-rows: 52vh 48vh;
+      height: 100vh;
+    }
+    .top, .bottom {
+      padding: 14px;
+    }
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      height: 100%;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+      overflow: hidden;
+    }
+    .toolbar {
+      display: flex;
+      gap: 10px;
+      padding: 12px;
+      border-bottom: 1px solid var(--line);
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .toolbar input[type="text"], .toolbar input[type="file"] {
+      padding: 9px 10px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      font-size: 14px;
+    }
+    .toolbar input[type="text"] { min-width: 260px; flex: 1; }
+    button {
+      border: 1px solid var(--line);
+      background: white;
+      border-radius: 8px;
+      padding: 9px 12px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+    button.primary { background: var(--accent); color: white; border-color: var(--accent); }
+    button.danger { color: var(--danger); }
+    .content {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 14px;
+      padding: 14px;
+      height: calc(100% - 58px);
+      overflow: hidden;
+    }
+    .editor, .locations, .listwrap {
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      overflow: auto;
+      background: #fff;
+    }
+    .section-title {
+      padding: 10px 12px;
+      font-weight: bold;
+      border-bottom: 1px solid var(--line);
+      background: #fafbfd;
+    }
+    .form {
+      padding: 12px;
+      display: grid;
+      grid-template-columns: 160px 1fr;
+      gap: 10px 12px;
+      align-items: center;
+    }
+    .form input, .form textarea {
+      width: 100%;
+      padding: 9px 10px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      font-size: 14px;
+    }
+    .form textarea { min-height: 90px; resize: vertical; }
+    .status {
+      padding: 0 12px 12px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    table { width: 100%; border-collapse: collapse; }
+    th, td {
+      text-align: left;
+      padding: 9px 10px;
+      border-bottom: 1px solid var(--line);
+      font-size: 14px;
+      vertical-align: top;
+    }
+    th { background: #fafbfd; position: sticky; top: 0; }
+    .listwrap { height: calc(100% - 58px); }
+    .row-link {
+      cursor: pointer;
+    }
+    .row-link:hover { background: var(--accent2); }
+    .row-link.active { background: #dbeafe; }
+    .muted { color: var(--muted); }
+    .small { font-size: 12px; }
+    .badge {
+      display: inline-block;
+      background: #eef2ff;
+      color: #3730a3;
+      border-radius: 999px;
+      padding: 3px 8px;
+      font-size: 12px;
+    }
+    .flex {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .loc-form {
+      padding: 10px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr) auto;
+      gap: 8px;
+      border-bottom: 1px solid var(--line);
+    }
+    .loc-form input {
+      padding: 8px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+    }
+    .empty {
+      padding: 24px;
+      color: var(--muted);
+    }
+    a { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <div class="top">
+      <div class="panel">
+        <div class="toolbar">
+          <strong>Component Editor</strong>
+          <span class="muted small">HTML-only version. Saves in browser or exports JSON.</span>
+          <button onclick="newComponent()">New part</button>
+          <button class="primary" onclick="saveComponent()">Save part</button>
+          <button class="danger" onclick="deleteComponent()">Delete part</button>
+          <button onclick="exportJson()">Export JSON</button>
+          <label class="badge">Import JSON <input type="file" accept="application/json" onchange="importJson(event)" style="display:none"></label>
+          <button onclick="loadDemo()">Load demo</button>
+        </div>
+        <div class="content">
+          <div class="editor">
+            <div class="section-title">Part details</div>
+            <div class="form">
+              <label>Part number</label><input id="part_number" type="text">
+              <label>Manufacturer</label><input id="manufacturer" type="text">
+              <label>Datasheet URL</label><input id="datasheet_url" type="text">
+              <label>Description</label><textarea id="description"></textarea>
+            </div>
+            <div class="status" id="status">Ready.</div>
+          </div>
+          <div class="locations">
+            <div class="section-title">Locations</div>
+            <div class="loc-form">
+              <input id="loc_box" placeholder="Box">
+              <input id="loc_x" placeholder="X">
+              <input id="loc_y" placeholder="Y">
+              <input id="loc_qty" placeholder="Qty">
+              <button onclick="addLocation()">Add</button>
+            </div>
+            <div id="locations_table"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom">
+      <div class="panel">
+        <div class="toolbar">
+          <input id="search" type="text" placeholder="Search part number, manufacturer, description..." oninput="renderList()">
+          <span id="count" class="muted"></span>
+        </div>
+        <div class="listwrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Part number</th>
+                <th>Manufacturer</th>
+                <th>Description</th>
+                <th>Datasheet</th>
+              </tr>
+            </thead>
+            <tbody id="component_list"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script>
+const STORAGE_KEY = 'component_inventory_html_only_v1';
+let components = [];
+let selectedId = null;
+let nextId = 1;
+
+function escapeHtml(v='') {
+  return String(v)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
+function saveLocal() {
+  localStorage.setItem(STORAGE_KEY, JSON.stringify({components, nextId}));
+}
+
+function loadLocal() {
+  const raw = localStorage.getItem(STORAGE_KEY);
+  if (!raw) return false;
+  try {
+    const obj = JSON.parse(raw);
+    components = Array.isArray(obj.components) ? obj.components : [];
+    nextId = Number(obj.nextId || 1);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+function loadDemo() {
+  components = [
+    {
+      id: 1,
+      part_number: 'ESP32-WROOM-32',
+      manufacturer: 'Espressif Systems',
+      description: 'Wi-Fi + Bluetooth module',
+      datasheet_url: 'https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf',
+      locations: [{box:'1', x:'2', y:'3', qty:'1'}]
+    },
+    {
+      id: 2,
+      part_number: 'LM1117-3.3',
+      manufacturer: 'Texas Instruments',
+      description: '3.3V linear regulator',
+      datasheet_url: 'https://www.ti.com/lit/ds/symlink/lm1117.pdf',
+      locations: [{box:'4', x:'1', y:'1', qty:'2'}]
+    }
+  ];
+  nextId = 3;
+  selectedId = 1;
+  saveLocal();
+  renderAll();
+  setStatus('Demo data loaded.');
+}
+
+function newComponent() {
+  selectedId = null;
+  document.getElementById('part_number').value = '';
+  document.getElementById('manufacturer').value = '';
+  document.getElementById('datasheet_url').value = '';
+  document.getElementById('description').value = '';
+  document.getElementById('locations_table').innerHTML = '<div class="empty">No locations yet.</div>';
+  setStatus('Creating new part.');
+  renderList();
+}
+
+function currentLocations() {
+  const comp = components.find(c => c.id === selectedId);
+  return comp ? comp.locations || [] : [];
+}
+
+function addLocation() {
+  const box = document.getElementById('loc_box').value.trim();
+  const x = document.getElementById('loc_x').value.trim();
+  const y = document.getElementById('loc_y').value.trim();
+  const qty = document.getElementById('loc_qty').value.trim();
+  if (!box && !x && !y && !qty) return;
+
+  if (selectedId === null) {
+    saveComponent();
+    if (selectedId === null) return;
+  }
+  const comp = components.find(c => c.id === selectedId);
+  comp.locations = comp.locations || [];
+  comp.locations.push({box, x, y, qty});
+  saveLocal();
+  renderLocations();
+  document.getElementById('loc_box').value = '';
+  document.getElementById('loc_x').value = '';
+  document.getElementById('loc_y').value = '';
+  document.getElementById('loc_qty').value = '';
+  setStatus('Location added.');
+}
+
+function removeLocation(idx) {
+  const comp = components.find(c => c.id === selectedId);
+  if (!comp) return;
+  comp.locations.splice(idx, 1);
+  saveLocal();
+  renderLocations();
+  setStatus('Location removed.');
+}
+
+function renderLocations() {
+  const wrap = document.getElementById('locations_table');
+  const locs = currentLocations();
+  if (!locs.length) {
+    wrap.innerHTML = '<div class="empty">No locations yet.</div>';
+    return;
+  }
+  wrap.innerHTML = `
+    <table>
+      <thead><tr><th>Box</th><th>X</th><th>Y</th><th>Qty</th><th></th></tr></thead>
+      <tbody>
+        ${locs.map((l,i)=>`
+          <tr>
+            <td>${escapeHtml(l.box)}</td>
+            <td>${escapeHtml(l.x)}</td>
+            <td>${escapeHtml(l.y)}</td>
+            <td>${escapeHtml(l.qty)}</td>
+            <td><button onclick="removeLocation(${i})">Remove</button></td>
+          </tr>`).join('')}
+      </tbody>
+    </table>`;
+}
+
+function selectComponent(id) {
+  selectedId = id;
+  const comp = components.find(c => c.id === id);
+  if (!comp) return;
+  document.getElementById('part_number').value = comp.part_number || '';
+  document.getElementById('manufacturer').value = comp.manufacturer || '';
+  document.getElementById('datasheet_url').value = comp.datasheet_url || '';
+  document.getElementById('description').value = comp.description || '';
+  renderLocations();
+  renderList();
+  setStatus(`Selected ${comp.part_number || '(unnamed part)'}.`);
+}
+
+function saveComponent() {
+  const data = {
+    part_number: document.getElementById('part_number').value.trim(),
+    manufacturer: document.getElementById('manufacturer').value.trim(),
+    datasheet_url: document.getElementById('datasheet_url').value.trim(),
+    description: document.getElementById('description').value.trim()
+  };
+  if (!data.part_number) {
+    setStatus('Part number is required.', true);
+    return;
+  }
+
+  const duplicate = components.find(c => c.part_number.toLowerCase() === data.part_number.toLowerCase() && c.id !== selectedId);
+  if (duplicate) {
+    setStatus('Part number already exists.', true);
+    return;
+  }
+
+  if (selectedId === null) {
+    const item = { id: nextId++, ...data, locations: [] };
+    components.push(item);
+    selectedId = item.id;
+    setStatus('New part added.');
+  } else {
+    const comp = components.find(c => c.id === selectedId);
+    comp.part_number = data.part_number;
+    comp.manufacturer = data.manufacturer;
+    comp.datasheet_url = data.datasheet_url;
+    comp.description = data.description;
+    setStatus('Part updated.');
+  }
+  saveLocal();
+  renderAll();
+}
+
+function deleteComponent() {
+  if (selectedId === null) return;
+  const comp = components.find(c => c.id === selectedId);
+  if (!comp) return;
+  if (!confirm(`Delete ${comp.part_number}?`)) return;
+  components = components.filter(c => c.id !== selectedId);
+  selectedId = null;
+  saveLocal();
+  renderAll();
+  newComponent();
+  setStatus('Part deleted.');
+}
+
+function renderList() {
+  const q = document.getElementById('search').value.trim().toLowerCase();
+  const rows = components
+    .slice()
+    .sort((a,b) => (a.part_number||'').localeCompare(b.part_number||''))
+    .filter(c => {
+      if (!q) return true;
+      return [c.part_number, c.manufacturer, c.description, c.datasheet_url]
+        .join(' ')
+        .toLowerCase()
+        .includes(q);
+    });
+
+  document.getElementById('count').textContent = `${rows.length} component(s)`;
+  const tbody = document.getElementById('component_list');
+  if (!rows.length) {
+    tbody.innerHTML = '<tr><td colspan="4" class="muted">No components found.</td></tr>';
+    return;
+  }
+  tbody.innerHTML = rows.map(c => `
+    <tr class="row-link ${c.id===selectedId?'active':''}" onclick="selectComponent(${c.id})">
+      <td><strong>${escapeHtml(c.part_number || '')}</strong><br><span class="small muted">${(c.locations||[]).length} location(s)</span></td>
+      <td>${escapeHtml(c.manufacturer || '')}</td>
+      <td>${escapeHtml(c.description || '')}</td>
+      <td>${c.datasheet_url ? `<a href="${escapeHtml(c.datasheet_url)}" target="_blank">Open</a>` : '<span class="muted">-</span>'}</td>
+    </tr>`).join('');
+}
+
+function exportJson() {
+  const blob = new Blob([JSON.stringify({components}, null, 2)], {type: 'application/json'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'components_export.json';
+  a.click();
+  URL.revokeObjectURL(url);
+  setStatus('JSON exported.');
+}
+
+function importJson(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = () => {
+    try {
+      const obj = JSON.parse(reader.result);
+      const arr = Array.isArray(obj.components) ? obj.components : [];
+      components = arr.map((c, i) => ({
+        id: Number(c.id || i + 1),
+        part_number: c.part_number || '',
+        manufacturer: c.manufacturer || '',
+        description: c.description || '',
+        datasheet_url: c.datasheet_url || '',
+        locations: Array.isArray(c.locations) ? c.locations : []
+      }));
+      nextId = Math.max(1, ...components.map(c => c.id)) + 1;
+      selectedId = components[0]?.id ?? null;
+      saveLocal();
+      renderAll();
+      setStatus('JSON imported.');
+    } catch {
+      setStatus('Invalid JSON file.', true);
+    }
+  };
+  reader.readAsText(file);
+}
+
+function renderAll() {
+  renderList();
+  if (selectedId !== null) {
+    selectComponent(selectedId);
+  } else if (components.length) {
+    selectComponent(components[0].id);
+  } else {
+    newComponent();
+  }
+}
+
+function setStatus(msg, isError=false) {
+  const el = document.getElementById('status');
+  el.textContent = msg;
+  el.style.color = isError ? 'var(--danger)' : 'var(--muted)';
+}
+
+(function init() {
+  if (!loadLocal()) loadDemo();
+  else renderAll();
+})();
+</script>
+</body>
+</html>
